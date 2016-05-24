@@ -1,0 +1,14 @@
+<h1>Welcome to ARTADYS</h1>
+
+ARTADYS monitor the Behavior and Emotions of internet users.
+
+ARTADYS EMOTIONAL DATA SCIENCES is a startup-up on the market of internet of humans.
+<br /><br />
+{{filter-listing filteredList=filteredList
+autoComplete=(action 'autoComplete') search=(action 'search')}}
+{{#each model as |rentalUnit|}}
+  {{rental-listing rental=rentalUnit}}
+{{/each}}
+
+{{#link-to 'about'}}About{{/link-to}}
+{{#link-to 'contact'}}Click here to contact us.{{/link-to}}

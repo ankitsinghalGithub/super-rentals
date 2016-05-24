@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Super-rentals
 
 This README outlines the details of collaborating on this Ember application.
@@ -56,4 +57,6 @@ Specify what it takes to deploy your app.
 # super-rentals
 Ember tests
 >>>>>>> c92ba8eff1b467ece5c4ca3eabb4bf4187c8893d
+=======
+>>>>>>> 24e53d1b2a804d84bcee3cce4e362673977c765f
 # dist
