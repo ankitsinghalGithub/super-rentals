@@ -15,7 +15,7 @@ export default function() {
         type: 'rentals',
         id: 2,
         attributes: {
-          title: 'Urban Living',
+          title: 'Urban Living-Ankit Singhal',
           owner: 'Mike Teavee',
           city: 'Seattle',
           type: 'Condo',
