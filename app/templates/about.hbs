@@ -2,4 +2,16 @@
 
 <p>ARTADYS Intelligence Gedankenexperiment is a Neuro X project to monitor the Behavior and Emotions of internet users.</p>
 
+<h3>Word Frequency </h3>
+{{model}}
+<table border="1">
+  <tr><th>WORDS</th><th>COUNT</th></tr>
+{{#each model as |pr|}}
+  <tr>
+    <td>{{pr.word}}</td>
+    <td>{{pr.count}}</td>
+
+  </tr>
+{{/each}}
+</table>
 {{#link-to "contact"}}Click here to contact us.{{/link-to}}
